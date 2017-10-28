@@ -1,1 +1,1 @@
-function add(n){var o=0;return n.forEach(function(n,a){o+=n}),o}console.log(add(10));
+function add(d){return 0+d}console.log(add(10));

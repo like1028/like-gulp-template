@@ -9,9 +9,9 @@ module.exports = {
     },
     build: {
         html: "build/",
-        style: "src/styles",
-        script: "src/scripts",
-        image: "src/images",
-        font: "src/fonts/"
+        style: "build/styles",
+        script: "build/scripts",
+        image: "build/images",
+        font: "build/fonts/"
     }
 }

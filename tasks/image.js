@@ -16,9 +16,9 @@ var config = require('../config');
 //         .pipe(gulp.dest('build/images'))
 // });
 gulp.task('image', function(){
-    gulp.src('src/images/*.{gif,jpg,png,svg}')
+    gulp.src(config.src.image)
         .pipe(plumber())
-        .pipe(gulp.dest('build/images'))
+        .pipe(gulp.dest(config.build.image))
 });
 
 
