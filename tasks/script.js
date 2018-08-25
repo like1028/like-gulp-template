@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
 var plumber = require('gulp-plumber');
 var config = require('../config');
@@ -7,7 +8,10 @@ var config = require('../config');
 gulp.task('script', function () {
     gulp.src(config.src.script)
         .pipe(plumber())
-        .pipe(uglify())
+        // .pipe(uglify())
+        .pipe(babel({
+            presets: ['2015']
+        }))
         .pipe(gulp.dest(config.build.script))
 });
 
