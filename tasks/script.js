@@ -10,7 +10,7 @@ gulp.task('script', function () {
         .pipe(plumber())
         // .pipe(uglify())
         .pipe(babel({
-            presets: ['2015']
+            presets: ['es2015']
         }))
         .pipe(gulp.dest(config.build.script))
 });
