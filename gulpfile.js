@@ -1,6 +1,6 @@
 /**
  *@file   gulp配置文件
- *@author Like (978885880@qq.com)
+ *@author Like (likeaixi@gmail.com)
  *@date   2017-10-27 09:41:07
  *@disc
  */
